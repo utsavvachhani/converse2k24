@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ref, push, set, get, query, orderByChild, equalTo } from 'firebase/database';
+import { ref, push, set,  query, orderByChild, equalTo } from 'firebase/database';
 import { database } from './firebase'; // Adjust the path as necessary
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
@@ -62,7 +62,7 @@ const Register = () => {
 
     try {
       const usersRef = ref(database, 'users');
-      const emailQuery = query(usersRef, orderByChild('email'), equalTo(formData.email));
+      // const emailQuery = query(usersRef, orderByChild('email'), equalTo(formData.email));
       // const snapshot = await get(emailQuery);
 
       let emailExists = false;

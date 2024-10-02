@@ -11,9 +11,9 @@ const Thankyou = () => {
   const navigate = useNavigate();
   const { formData } = location.state || {};
 
-  const closeModal = () => {
-    navigate('/'); // Redirect to the home page
-  };
+  // const closeModal = () => {
+  //   navigate('/'); // Redirect to the home page
+  // };
 
   const getWhatsAppLink = (event) => {
     switch (event) {

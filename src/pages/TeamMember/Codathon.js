@@ -12,7 +12,7 @@ import RenilDholariya from '../../team/codathon/RenilDholariya.png';
 import ShrutiGajera from '../../team/codathon/Shruti.png';
 import Ashish from '../../team/faculty/Ashish.png';
 import Apurva from '../../team/faculty/Apurv.png';
-import Mitul from '../../team/faculty/Apurv.png';
+// import Mitul from '../../team/faculty/Apurv.png';
 import avtar from '../../team/avtar/maleA.png';
 
 function Codathon() {

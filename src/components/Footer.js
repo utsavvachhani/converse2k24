@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import instagram from './insta.png';
 function Footer() {
   return (
@@ -29,7 +29,7 @@ function Footer() {
           </div>
           <div className='footer-section'>
             <h4>Web Team</h4>
-            <p><a href='https://github.com/utsavvachhani'>Utsav Vachhani</a></p>
+            <p><a href='https://github.com/utsavvachhani' target='_blank' rel='noreferrer'>Utsav Vachhani</a></p>
             <p>Meet Patel</p>
           </div>
         </footer>

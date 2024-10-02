@@ -52,8 +52,8 @@ const TeamsSection = () => {
                 <div className='lin'>
                     <h1>
                         <Link to="/" >Home</Link>
-                    </h1>
-                    <img src={great} className='symb'/>
+                    </h1> 
+                    <img src={great} className='symb' alt='next'/>
                     <h1>
                         <Link to="/team" >Team</Link>
                     </h1>

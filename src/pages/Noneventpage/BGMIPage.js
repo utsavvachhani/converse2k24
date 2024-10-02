@@ -6,7 +6,7 @@ import Footer from '../../components/Footer';
 import great from "./great.png";
 import { Link } from "react-router-dom";
 import ScrollToTop from '../../components/ScrollToTop';
-import MilapGohil from '../../team/webwave/Webwave_Milap.png';
+// import MilapGohil from '../../team/webwave/Webwave_Milap.png';
 import bgmi from '../../team/Non-tech-poster/bgmi.jpg';
 
 

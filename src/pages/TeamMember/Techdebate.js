@@ -11,7 +11,7 @@ import HetSalmawala from '../../team/techdebate/5Het_Salmawala.png';
 import HitakshiMavani from '../../team/techdebate/6MavaniHitakshi.png';
 import Rudraakhadela from '../../team/techdebate/7TECHDEBATE_Rudraakhadela.png';
 import Dhruti from '../../team/faculty/Dhruti.png';
-import MitaliDesai from '../../team/faculty/Dhruti.png';
+// import MitaliDesai from '../../team/faculty/Dhruti.png';
 
 import avtar from '../../team/avtar/femaleA.png';
 

@@ -10,8 +10,7 @@ import MilapGohil from '../../team/webwave/Webwave_Milap.png';
 import PreetMehta from '../../team/webwave/Webwave_Preet.png';
 import RenishDhaduk from '../../team/webwave/Webwave_Renish.png';
 import DhruvItaliya from '../../team/webwave/DhruvItaliya.png';
-import Vivek from '../../team/faculty/mukesh.png';
-import Mitul from '../../team/faculty/mukesh.png';
+
 import avtar from '../../team/avtar/maleA.png';
 
 
