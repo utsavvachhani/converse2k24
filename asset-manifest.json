@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/converse2k24/static/css/main.27124a79.css",
-    "main.js": "/converse2k24/static/js/main.3afa47a9.js",
+    "main.js": "/converse2k24/static/js/main.ff006cb0.js",
     "static/js/453.81833b8d.chunk.js": "/converse2k24/static/js/453.81833b8d.chunk.js",
     "static/media/Ankit.png": "/converse2k24/static/media/Ankit.ba3e78b1df9fc9d57be9.png",
     "static/media/Dhruti.png": "/converse2k24/static/media/Dhruti.eb82a6d405d1bea98245.png",
@@ -214,11 +214,11 @@
     "static/media/great.png": "/converse2k24/static/media/great.0a69827e3afcfbbf1f8d.png",
     "index.html": "/converse2k24/index.html",
     "main.27124a79.css.map": "/converse2k24/static/css/main.27124a79.css.map",
-    "main.3afa47a9.js.map": "/converse2k24/static/js/main.3afa47a9.js.map",
+    "main.ff006cb0.js.map": "/converse2k24/static/js/main.ff006cb0.js.map",
     "453.81833b8d.chunk.js.map": "/converse2k24/static/js/453.81833b8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27124a79.css",
-    "static/js/main.3afa47a9.js"
+    "static/js/main.ff006cb0.js"
   ]
 }
