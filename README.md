@@ -4,6 +4,9 @@ Here’s a refined README file for your Converse 2K24 project:
 # Converse 2K24
 
 Welcome to the Converse 2K24 project! This website serves as the online platform for the Converse 2K24 event, allowing users to register for various activities and manage their data efficiently.
+
+<br>
+
 I created this website for my college as part of the web team, focusing on providing a user-friendly experience for managing participants' data. The site was designed to be efficient and accessible, ensuring that all users can easily navigate and register for events.
 
 ## Overview
