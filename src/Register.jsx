@@ -153,7 +153,7 @@ const Register = () => {
               required
             />
             <p className="Email-text">
-              If you have an <a href='' target='_blank' rel="noopener noreferrer">SCET id</a>, then register with it. Otherwise, go with Gmail.
+              If you have an <a href='https://github.com/utsavvachhani/converse2k24' target='_blank' rel="noopener noreferrer">SCET id</a>, then register with it. Otherwise, go with Gmail.
             </p>
           </div>
     
