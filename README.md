@@ -1,6 +1,3 @@
-Here’s a refined README file for your Converse 2K24 project:
-
-
 # Converse 2K24
 
 Welcome to the Converse 2K24 project! This website serves as the online platform for the Converse 2K24 event, allowing users to register for various activities and manage their data efficiently.
@@ -63,3 +60,9 @@ I would like to acknowledge the contributions of **Meet Patel** in this project.
 - **Meet Patel**: [GitHub Profile](https://github.com/meet41)
 
 ## Screenshots
+![Screenshot (210)](https://github.com/user-attachments/assets/9280df43-51ef-47ad-8cac-7ffa6d770e09)
+![Screenshot (211)](https://github.com/user-attachments/assets/3bf3b8c9-9bc4-455b-ac7a-7a3dc9ff9e5c)
+![Screenshot (212)](https://github.com/user-attachments/assets/e3068d30-3a56-4ca9-826a-f05910b6e570)
+![Screenshot (213)](https://github.com/user-attachments/assets/197ebcbe-2f06-4a13-a738-c3292726dd1a)
+![Screenshot (214)](https://github.com/user-attachments/assets/ada2fe20-85c2-4b00-9ee1-4352fe0109fe)
+
