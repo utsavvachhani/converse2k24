@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link,useLocation, useNavigate } from 'react-router-dom';
+import { Link,useLocation } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 import great from "./great.png";
