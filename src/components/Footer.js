@@ -41,6 +41,7 @@ function Footer() {
                 href='https://www.instagram.com/converse_2k24?igsh=bmpwbnBxOHVpeWQz'
                 className=''
                 target='_blank'
+                rel='noreferrer'
                 alt='Converse2k24'
               >
                 <img src={instagram} alt='instagram' />

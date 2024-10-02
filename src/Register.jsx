@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ref, push, set,  query, orderByChild, equalTo } from 'firebase/database';
+import { ref, push, set } from 'firebase/database';
 import { database } from './firebase'; // Adjust the path as necessary
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
@@ -153,10 +153,10 @@ const Register = () => {
               required
             />
             <p className="Email-text">
-              If you have an <a>SCET id</a>, then register with it. Otherwise, go with Gmail.
+              If you have an <a href='' target='_blank' rel="noopener noreferrer">SCET id</a>, then register with it. Otherwise, go with Gmail.
             </p>
           </div>
-
+    
           <div className="form-group">
             <label htmlFor="contactNumber">Mobile Number:</label>
             <input

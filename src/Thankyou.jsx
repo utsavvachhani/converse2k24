@@ -8,7 +8,7 @@ import './pages/registration/Thankyou.css';
 const Thankyou = () => {
   
   const location = useLocation();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const { formData } = location.state || {};
 
   // const closeModal = () => {

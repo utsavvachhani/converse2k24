@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ref, push, set, query, orderByChild, equalTo } from 'firebase/database';
+import { ref, push, set } from 'firebase/database';
 import { database } from './firebase'; // Adjust the path as necessary
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
@@ -160,7 +160,9 @@ const RegisterTeam = () => {
               onChange={handleChange}
               required
             />
-            <p className="Email-text">If you have  <a>SCET ID</a> , register with it, otherwise use Gmail.</p>
+           <p className="Email-text">
+              If you have an <a href='' target='_blank' rel="noopener noreferrer">SCET id</a>, then register with it. Otherwise, go with Gmail.
+            </p>
           </div>
 
           <div className="form-group">
@@ -268,7 +270,10 @@ const RegisterTeam = () => {
                   onChange={handleChange}
                   required={isSecondSetVisible}
                 />
-                <p className="Email-text">If you have  <a>SCET ID</a> , register with it, otherwise use Gmail.</p>
+                
+                <p className="Email-text">
+                  If you have an <a href='' target='_blank' rel="noopener noreferrer">SCET id</a>, then register with it. Otherwise, go with Gmail.
+                </p>
               </div>
 
               <div className="form-group">
