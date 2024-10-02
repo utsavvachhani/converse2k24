@@ -42,11 +42,11 @@ const Techevent = () => {
                     <h1>
                         <Link to="/" >Home</Link>
                     </h1>
-                    <img src={great} className='symb'/>
+                    <img src={great} className='symb' alt='Converse2k24'/>
                     <h1>
                         <Link to="/events" >Events</Link>
                     </h1>
-                    <img src={great} className='symb'/>
+                    <img src={great} className='symb' alt='Converse2k24'/>
                     <h1>
                         <Link to="/tech-event" >Tech </Link>
                     </h1>

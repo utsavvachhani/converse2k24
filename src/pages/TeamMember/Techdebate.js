@@ -23,11 +23,11 @@ function Techdebate() {
             <h1>
               <Link to="/" >Home</Link>
             </h1>
-            <img src={great} className='symb'/>
+            <img src={great} className='symb' alt='Converse2k24'/>
              <h1>
               <Link to="/team" >Team</Link>
             </h1>
-            <img src={great} className='symb'/>
+            <img src={great} className='symb' alt='Converse2k24'/>
              <h1>
               <Link to="/techdebate-team" >Tech Debate</Link>
             </h1>
