@@ -10,15 +10,15 @@ import shreya from '../../team/10core/shreya4.png';
 
 import ayush from '../../team/10core/ayush7.png';
 import uttam from '../../team/10core/uttam8.png';
-import tilak from '../../team/10core/tilak.png';
+// import tilak from '../../team/10core/tilak.png';
 import jenish from '../../team/10core/jenish.png';
-import keyur from '../../team/10core/keyur.png';
+// import keyur from '../../team/10core/keyur.png';
 import Hiren from '../../team/faculty/Hiren.png';
 import Ankit from '../../team/faculty/Ankit.png';
 import Karishma from '../../team/faculty/Karishma.png';
 import Nitya from '../../team/faculty/nitya.png';
-import Utsav from '../../team/10core/VachhaniUtsav.png';
-import Meet from '../../team/10core/meetpatel.png';
+// import Utsav from '../../team/10core/VachhaniUtsav.png';
+// import Meet from '../../team/10core/meetpatel.png';
 
 function Converse() {
   return (

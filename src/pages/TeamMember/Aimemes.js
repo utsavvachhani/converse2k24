@@ -10,7 +10,7 @@ import ViraliJoshi from '../../team/aimemes/AImemes_virali.png';
 import VatsalMakwana from '../../team/aimemes/Aimemes_Vatsal.png';
 import AyushiKyada from '../../team/aimemes/aimemes_ayushi.png';
 import Dhruti from '../../team/faculty/Dhruti.png';
-import KrishnaD from '../../team/faculty/Dhruti.png';
+// import KrishnaD from '../../team/faculty/Dhruti.png';
 import avtar from '../../team/avtar/femaleA.png';
 import avtar1 from '../../team/avtar/maleA.png';
 

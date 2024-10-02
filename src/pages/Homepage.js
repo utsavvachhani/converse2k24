@@ -12,26 +12,26 @@ import SponsorCard from '../components/SponsorCard';
 // import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 
 const HomePage = () => {
-  const teams = [
-    {
-      title: 'Career line ',
-      imageSrc:
-        'https://th.bing.com/th/id/OIG1.B3PgoOGGZbZ_okUN.Gye?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn',
-      link: '/converse-team',
-    },
-    {
-      title: 'House of sanskruti',
-      imageSrc:
-        'https://th.bing.com/th/id/OIG4.lL1HeudmWRX2k6hOXZs6?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn',
-      link: '/web-team',
-    },
-    {
-      title: 'Bull Rider',
-      imageSrc:
-        'https://th.bing.com/th/id/OIG1.XqMnE8S_.9bYYPvoOy3.?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn',
-      link: '/webwave-team',
-    },
-  ];
+  // const teams = [
+  //   {
+  //     title: 'Career line ',
+  //     imageSrc:
+  //       'https://th.bing.com/th/id/OIG1.B3PgoOGGZbZ_okUN.Gye?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn',
+  //     link: '/converse-team',
+  //   },
+  //   {
+  //     title: 'House of sanskruti',
+  //     imageSrc:
+  //       'https://th.bing.com/th/id/OIG4.lL1HeudmWRX2k6hOXZs6?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn',
+  //     link: '/web-team',
+  //   },
+  //   {
+  //     title: 'Bull Rider',
+  //     imageSrc:
+  //       'https://th.bing.com/th/id/OIG1.XqMnE8S_.9bYYPvoOy3.?w=270&h=270&c=6&r=0&o=5&dpr=1.3&pid=ImgGn',
+  //     link: '/webwave-team',
+  //   },
+  // ];
   return (
     <>
       <Header />

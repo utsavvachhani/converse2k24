@@ -11,7 +11,7 @@ import fin from './fin.jpg';
 import fins from './fins.png';
 // import EmblaCarousel from './EmblaCarousel/index';
 
-const OPTIONS = { loop: true };
+// const OPTIONS = { loop: true };
 const SponsorCard = () => {
   return (
     // <EmblaCarousel
