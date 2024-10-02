@@ -1,0 +1,87 @@
+/* AboutPage.css */
+.ab{
+  background-color: black;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+.about-page {
+  
+    max-width: 1000px;
+    height:100%;
+    margin: -70px auto;
+    padding: 20px;  
+    font-family: 'Arial', sans-serif;
+    color: #f5f5f5;
+  
+  }
+  .abhead{
+    margin-left: 2%;
+    font-size: 25px;
+  }
+  
+
+  
+  .highlight {
+    background: linear-gradient(90deg, #4873ff 0%, #d148d3 100%); /* More distinct color transition */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    margin-left: 2%;
+  }
+  
+  .subtitle {
+    font-size: 25px;
+    background: linear-gradient(180deg, #4873ff 0%, #d148d3 100%); /* More distinct color transition */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  .section p{
+    margin-left: 2%;
+    font-size:18px;
+  }
+  
+  .banner-image {
+    width:100%;
+    /* border-radius: 5%; */
+    height: auto;
+    margin-bottom: 0px;
+    border-radius: 50px;
+   
+  }
+  
+
+  @media screen and (min-width:900px) {
+    .banner-image {
+      width:95%;
+      margin-left:1.5%;
+      height:500px;
+    }
+    .title{
+      font-size: 30px;
+    }
+    .section p{
+      font-size:20px;
+    }
+    .abhead{
+      
+      font-size: 30px;
+    }
+    
+  }   

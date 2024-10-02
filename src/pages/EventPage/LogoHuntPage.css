@@ -1,0 +1,139 @@
+.logo-hunt-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top:-70px;
+    
+  }
+  
+  .logo-hunt-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    /* color: #333; */
+  }
+  
+  .logo-hunt-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .logo-hunt-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .logo-hunt-image img {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin-top:20px;
+    border-radius: 8px;
+  }
+
+.logo-hunt-page img{
+  border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  .logo-hunt-details {
+    flex: 2;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .logo-hunt-details h2,
+  .logo-hunt-details h3 {
+    /* color: #555; */
+    margin-top: 10px;
+    font-size: 25px;
+    background: linear-gradient(180deg, #4873ff 0%, #d148d3 100%); /* More distinct color transition */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .logo-hunt-details p,
+  .logo-hunt-details ul {
+    margin: 5px 0;
+    line-height: 1.6;
+    font-size: 18px;
+    /* color: #333; */
+  }
+  
+  .logo-hunt-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  .logo3{
+    font-weight: 450;
+  }
+  
+.register-button {
+  
+  background: linear-gradient(90deg, #184dfc, #d51dd8);
+  
+  color: white;        
+  padding: 10px 20px;
+  font-size: 16px;    
+  border: none;       
+  border-radius: 5px;       
+  cursor: pointer;         
+  margin-top: 20px;        
+  transition: background-color 0.3s; 
+}
+
+.register-button:hover {
+  background: linear-gradient(270deg, #184dfc, #d51dd8);
+}
+
+  @media screen and (max-width: 768px) {
+    .logo-hunt-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo-hunt-image img {
+        width: 100%; 
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo-hunt-page {
+      padding: 10px;
+    }
+  
+    .logo-hunt-details h2,
+    .logo-hunt-details h3 {
+      font-size: 25px;
+    }
+    
+    .logo-hunt-image img {
+        width: 100%; 
+        margin-top:0px;
+        
+      }
+      .logo-hunt-page h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+        /* color: #333; */
+      }
+    .logo-hunt-details p,
+    .logo-hunt-details ul {
+      font-size: 18px;
+    }
+   
+  }
+  

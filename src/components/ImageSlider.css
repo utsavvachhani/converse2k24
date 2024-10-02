@@ -1,0 +1,18 @@
+.hello.slider-container {
+    position: relative;
+    width: 100%; 
+    max-width: 1000px;
+    
+    height: auto; 
+    overflow: hidden;
+    margin: auto; 
+    border-radius: 50px;
+  }
+  
+  .hi.slide-image {
+    width: 100%; /* Image takes full width of the container */
+    height: auto; /* Maintains aspect ratio, making the image responsive */
+    object-fit: cover; /* Ensures the image covers the entire slider area */
+    transition: opacity 1s ease-in-out; /* Smooth transition for fading effects */
+  }
+  

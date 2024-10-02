@@ -1,0 +1,2021 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+/* body {
+  background-image: url('https://www.wallpaperflare.com/static/43/858/375/stars-planets-galaxy-4k-wallpaper.jpg');
+  background-image: url('https://fastcode.space/wp-content/uploads/2019/11/Starry-Glamour-Dream-Earth-Beautiful-Purple-Blue-Gradient-Background-Poster-Illustration-0.jpg');
+  background-image: url('./image/back3.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-attachment: fixed; 
+  margin: 0; 
+  padding: 0; 
+  
+} */
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./image/back3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  opacity: 0.4;
+  z-index: -1; /* Ensure it stays in the background */
+}
+
+.homepage {
+  text-align: center;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  height: 160px;
+}
+.logog {
+  scale: 0.3;
+  margin: -225px 300px;
+  padding: 0px 0px;
+}
+
+/* .conve{
+  display: flex;
+  margin: 15px -500px;
+  font-style: italic;
+  font-size: 1.4rem;
+} */
+.conve {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  margin: 15px -450px;
+  /* font-style: italic; */
+  font-size: 1.4rem;
+
+  /* Animation for bouncing effect */
+}
+
+/* Keyframes for bounce animation */
+
+.co {
+  /* color:rgb(16, 195, 255);   */
+  /* 2 seconds duration, infinite loop */
+}
+.n {
+  /* color:rgb(197, 197, 14); */
+  /* 2 seconds duration, infinite loop */
+}
+.ve {
+  /* color: rgb(63, 62, 62); */
+  /* 2 seconds duration, infinite loop */
+}
+.r {
+  /* color: rgb(4, 110, 4); */
+  /* 2 seconds duration, infinite loop */
+}
+.se {
+  /* color:rgb(185, 6, 6); */
+  /* 2 seconds duration, infinite loop */
+}
+.year {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 3.7rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.content {
+  margin-left: 190px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore-section {
+  padding: 0px 0px;
+  width: 50%;
+  text-align: center;
+}
+
+.explore-section h3 {
+  color: #d148d3;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+.explore-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.explore-section ul li a:hover {
+  background: linear-gradient(
+    90deg,
+    #4873ff 40%,
+    #d148d3 60%
+  ); /* More distinct color transition */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.welcome-message {
+  margin-top: 30px;
+  font-size: 1.6em;
+}
+
+.tv-section {
+  margin-right: 150px;
+  width: 40%;
+}
+
+.tv-image {
+  width: 100%;
+  max-width: 400px;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  border-top: 2px solid #333;
+  padding-top: 20px;
+}
+.back {
+  background-color: #000;
+}
+
+.footer-section h4 {
+  background: linear-gradient(
+    90deg,
+    #4873ff 20%,
+    #d148d3 80%
+  ); /* More distinct color transition */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5em;
+  font-weight: 420;
+  margin-bottom: 10px;
+}
+
+.footer-section p{
+  font-size: 1.2em;
+  margin: 2px 0;
+}
+
+.footer-section a {
+  color: white;
+}
+.her {
+  text-align: center;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  margin-top: 40px;
+}
+
+.her .container img {
+  margin: 0px 7px;
+  height: 50px;
+  border-radius: 10px;
+  transition-duration: 0.6s;
+  transition: transform 0.5s ease;
+}
+
+.her .container img:hover {
+  transform: scale(1.2);
+}
+
+.slider {
+  border: 0px solid white;
+  width: 1100px;
+  height: 550px;
+  overflow: hidden;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 8px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.slider {
+  width: 1000px;
+  height: 550px;
+  overflow: hidden;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 16px;
+
+  /* Glassmorphism effect */
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Optional: Style the image container with a glass effect as well */
+.sli {
+  padding: 50px 50px;
+  margin-left: 180px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  width: 1020px;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.App {
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  transition: opacity 0.1s ease-in-out;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Team */
+
+.team-card {
+  background-color: white;
+  padding: 10px 25px;
+  margin: 25px 0px;
+  border-radius: 80px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 75%;
+  max-width: 350px;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+}
+.team-card:hover {
+  transform: scale(1.1);
+}
+
+.team-cards-container a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+/* .team-cards-container a:hover{
+  text-decoration: none;
+  color:#d148d3;
+   
+} */
+.teams-section h3 {
+  margin-top: -5px;
+}
+
+.team-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.teams-section {
+  text-align: center;
+  margin-top: -40px;
+}
+
+/* pageheader */
+.teams-section .lin {
+  display: flex;
+  margin: 40px 170px;
+  padding: 0px 0px;
+}
+.teams-section div .symb {
+  width: 50px;
+}
+.teams-section div h1 a {
+  text-decoration: none;
+  color: white;
+}
+.teams-section div h1 a:hover {
+  background: linear-gradient(
+    90deg,
+    #4873ff 10%,
+    #d148d3 90%
+  ); /* More distinct color transition */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.teams-section .meet {
+  margin-left: -780px;
+  margin-top: -50px;
+}
+
+.team-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #000000;
+  font-size: 1.3rem;
+}
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+member .converse {
+  text-align: center;
+  padding: 20px;
+}
+.converse .heading {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #ffffff;
+  margin-left: -855px;
+  margin-top: -50px;
+}
+
+.image-grid {
+  margin-top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-card {
+  margin: 15px 0px;
+  padding: 22px 30px;
+  box-sizing: border-box;
+}
+
+.image-card .imagef {
+  background: linear-gradient(0deg, white, #ffcb83);
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+.image-card .imageh {
+  background: linear-gradient(0deg, white, #7eb7e6);
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+.image-card .imagev {
+  background: linear-gradient(0deg, white, #da86e6);
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+/* newmember */
+.converse {
+  text-align: center;
+  padding: 20px;
+  /* background-color: #2c3e50; */
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.converse p {
+  font-size: 20px;
+  font-weight: 1000;
+  margin: 0px 0px;
+  padding: 10px 0px;
+}
+
+.converse .heading {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #ecf0f1;
+  margin-left: -855px;
+  margin-top: -50px;
+}
+
+.image-grid {
+  margin-top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.image-card {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: #2c3e50;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  margin: 15px 15px;
+  padding: 22px 25px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+}
+
+.image-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.ex {
+  margin-top: -40px;
+  font-size: small;
+}
+
+@media screen and (max-width: 1800px) {
+  .explore-section {
+    padding: 0px 0px;
+    margin-left: 100px;
+    width: 50%;
+    text-align: left;
+  }
+
+  .teams-section .meet {
+    margin-left: -570px;
+    margin-top: -50px;
+    font-size: 22px;
+  }
+  .teams-section .lin {
+    margin: 40px 200px;
+    font-size: 1.5em;
+  }
+  .ex {
+    font-size: xx-large;
+  }
+  .team-card {
+    margin: 15px 15px;
+  }
+  .team-cards-container {
+    margin-left: 15px;
+  }
+  .converse .heading {
+    margin-left: -740px;
+    font-size: 2.1em;
+  }
+
+  .explore-section {
+    padding: 0px 0px;
+    margin-top: -50px;
+    width: 50%;
+    text-align: left;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    /* #00eeff */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  .explore-section ul li a {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.5em;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .welcome-message {
+    margin-top: 30px;
+    font-size: 1.9em;
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .explore-section {
+    padding: 0px 0px;
+    margin-left: 100px;
+    width: 50%;
+    text-align: left;
+  }
+  .sli {
+    margin-left: 232px;
+  }
+  .teams-section .meet {
+    margin-left: -570px;
+    margin-top: -50px;
+    font-size: 22px;
+  }
+  .teams-section .lin {
+    margin: 40px 200px;
+    font-size: 1.3em;
+  }
+  .ex {
+    font-size: x-large;
+  }
+  .team-card {
+    margin: 15px 15px;
+  }
+  .converse .heading {
+    margin-left: -740px;
+    font-size: 2.1em;
+  }
+
+  .explore-section {
+    padding: 0px 0px;
+    margin-top: -50px;
+    width: 50%;
+    text-align: left;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  .explore-section ul li a {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.5em;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .welcome-message {
+    margin-top: 30px;
+    font-size: 1.9em;
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .team-card {
+    margin: 10px -10px;
+  }
+  .teams-section .meet {
+    margin-left: -400px;
+    margin-top: -50px;
+    font-size: 22px;
+  }
+  .teams-section .lin {
+    margin: 40px 140px;
+    font-size: 1.3em;
+  }
+  .ex {
+    font-size: x-large;
+  }
+  .team-cards-container {
+    margin-left: 50px;
+  }
+  .image-card {
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    margin: 5px 5px;
+  }
+  .explore-section {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  .converse .heading {
+    margin-left: -600px;
+  }
+  .welcome-message {
+    margin-top: 30px;
+    font-size: 1.9em;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .teams-section .meet {
+    margin-left: -550px;
+    margin-top: -50px;
+  }
+  .teams-section .lin {
+    display: flex;
+    margin: 40px 110px;
+    padding: 0px 0px;
+  }
+  .team-card {
+    padding: 10px 25px;
+    margin: 10px 0px;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 70%;
+    max-width: 280px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+  .team-cards-container {
+    margin-left: 45px;
+  }
+  .teams-section .meet {
+    margin-left: -200px;
+    margin-top: -50px;
+    font-size: 22px;
+  }
+  .teams-section .lin {
+    margin: 40px 70px;
+    font-size: 1.4em;
+  }
+  .ex {
+    font-size: x-large;
+  }
+  .image-card {
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    margin: 5px 5px;
+  }
+
+  .explore-section {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  .converse .heading {
+    margin-left: -510px;
+  }
+
+  .explore-section {
+    padding: 0px 0px;
+    width: 50%;
+    text-align: left;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    font-size: 2.1em;
+    margin-bottom: 20px;
+  }
+  .explore-section ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .welcome-message {
+    margin-top: 30px;
+    font-size: 1.5em;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .slider {
+    width: 840px;
+    height: 425px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 16px;
+
+    /* Glassmorphism effect */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .sli {
+    padding: 50px 50px;
+    margin-left: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    width: 890px;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .teams-section .meet {
+    margin-left: -200px;
+    margin-top: -50px;
+  }
+  .teams-section .lin {
+    display: flex;
+    margin: 40px 180px;
+    padding: 0px 0px;
+  }
+  .team-card {
+    padding: 10px 25px;
+    margin: 25px 25ox;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 80%;
+    max-width: 280px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+  .image-card {
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    margin: 5px 5px;
+  }
+
+  .team-card {
+    padding: 10px 25px;
+    margin: 10px 25px;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 85%;
+    max-width: 350px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .teams-section .meet {
+    margin-left: -200px;
+    margin-top: -50px;
+    font-size: 22px;
+  }
+  .teams-section .lin {
+    margin: 40px 80px;
+    font-size: 1.3em;
+  }
+  .team-cards-container {
+    margin-left: 0px;
+  }
+
+  .converse .heading {
+    margin-left: -270px;
+  }
+  .explore-section {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: left;
+    margin-left: -90px;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+  }
+  .explore-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.3em;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .welcome-message {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+
+  .tv-section {
+    margin-right: 150px;
+    width: 40%;
+  }
+
+  .tv-image {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    border-top: 2px solid #333;
+    padding-top: 20px;
+  }
+  .back {
+    background-color: #000;
+  }
+
+  .footer-section h4 {
+    color: #d148d3;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .footer-section p {
+    font-size: 1em;
+    margin: 2px 0;
+  }
+}
+
+@media screen and (max-width: 856px) {
+  .slider {
+    width: 840px;
+    height: 425px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 16px;
+
+    /* Glassmorphism effect */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .sli {
+    padding: 50px 50px;
+    margin-left: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    width: 890px;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .teams-section .meet {
+    margin-left: -200px;
+    margin-top: -50px;
+  }
+  .teams-section .lin {
+    display: flex;
+    margin: 40px 180px;
+    padding: 0px 0px;
+  }
+
+  .image-card {
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    margin: 5px 5px;
+  }
+
+  .team-card {
+    padding: 10px 25px;
+    margin: 10px -20px;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 70%;
+    max-width: 342px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .teams-section .meet {
+    margin-left: 0px;
+    margin-top: -50px;
+    font-size: 22px;
+  }
+  .teams-section .lin {
+    margin: 40px 90px;
+    font-size: 1.3em;
+  }
+  .ex {
+    font-size: x-large;
+  }
+  .team-cards-container {
+    margin-left: 100px;
+  }
+
+  .converse .heading {
+    margin-left: -270px;
+  }
+  .explore-section {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: left;
+    margin-left: -90px;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+  }
+  .explore-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.3em;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .welcome-message {
+    margin-top: 30px;
+    font-size: 1.5rem;
+  }
+
+  .tv-section {
+    margin-right: 150px;
+    width: 40%;
+  }
+
+  .tv-image {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    border-top: 2px solid #333;
+    padding-top: 20px;
+  }
+  .back {
+    background-color: #000;
+  }
+
+  .footer-section h4 {
+    color: #d148d3;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .footer-section p {
+    font-size: 1em;
+    margin: 2px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider {
+    width: 645px;
+    height: 320px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 16px;
+
+    /* Glassmorphism effect */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .sli {
+    padding: 50px 50px;
+    margin-left: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    width: 665px;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .teams-section .meet {
+    margin-left: -200px;
+    margin-top: -50px;
+  }
+  .teams-section .lin {
+    display: flex;
+    margin: 40px 72px;
+    padding: 0px 0px;
+  }
+  .team-card {
+    padding: 10px 25px;
+    margin: 5px 15px;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 75%;
+    max-width: 260px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .teams-section .meet {
+    margin-left: -20px;
+    margin-top: -50px;
+    font-size: 22px;
+  }
+  .teams-section .lin {
+    margin: 40px 90px;
+    font-size: 1.1em;
+  }
+  .ex {
+    font-size: larger;
+  }
+  .team-cards-container {
+    margin-left: 20px;
+  }
+  .image-card {
+    width: 295px;
+    height: 295px;
+    padding: 20px 20px;
+    margin: 5px 5px;
+  }
+
+  .converse .heading {
+    font-size: 30px;
+    margin-left: -270px;
+  }
+  .explore-section {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: left;
+    margin-left: -90px;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  .explore-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.3em;
+  }
+
+  .menu li {
+    margin-bottom: 10px;
+  }
+
+  .welcome-message {
+    margin-top: 30px;
+    font-size: 1.3rem;
+  }
+
+  .tv-section {
+    margin-right: 150px;
+    width: 40%;
+  }
+
+  .tv-image {
+    width: 100%;
+    max-width: 400px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-section h4 {
+    color: #d148d3;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .footer-section p {
+    font-size: 1.2em;
+    margin: 2px 0;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .slider {
+    width: 370px;
+    height: 230px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 16px;
+
+    /* Glassmorphism effect */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .sli {
+    padding: 25px 25px;
+    margin-left: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    width: 380px;
+    margin-top: -30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .teams-section .meet {
+    margin-left: -200px;
+    margin-top: -50px;
+  }
+  .teams-section .lin {
+    display: flex;
+    margin: 40px 72px;
+    padding: 0px 0px;
+  }
+  .team-card {
+    padding: 10px 25px;
+    margin: 25px 25ox;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 80%;
+    max-width: 280px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+  .image-card {
+    width: 225px;
+    height: 235px;
+    padding: 10px 10px;
+    margin: 0px 0px;
+  }
+
+  .team-card {
+    padding: 10px 25px;
+    margin: 10px 30px;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 500px;
+    /* height:300px; */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .teams-section .meet {
+    margin-left: -20px;
+    margin-top: -50px;
+    font-size: 17px;
+  }
+  .teams-section .lin {
+    margin: 40px 15px;
+    font-size: 14px;
+  }
+  .team-cards-container {
+    margin-left: -110px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .converse .heading {
+    font-size: 21px;
+    margin-left: -210px;
+  }
+  .explore-section {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: left;
+    margin-left: -90px;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  .explore-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.3em;
+  }
+
+  .menu li {
+    margin-bottom: 0px;
+  }
+
+  .welcome-message {
+    margin-top: 30px;
+    font-size: 1.1rem;
+  }
+
+  .tv-section {
+    margin-right: 150px;
+    width: 40%;
+  }
+
+  .tv-image {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .header {
+    display: flex;
+    height: 100px;
+  }
+  .slider {
+    width: 370px;
+    height: 230px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 16px;
+
+    /* Glassmorphism effect */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .sli {
+    padding: 25px 25px;
+    margin-left: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    width: 380px;
+    margin-top: -30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .teams-section .meet {
+    margin-left: -60px;
+    margin-top: -50px;
+    font-size: 14px;
+  }
+  .teams-section .lin {
+    display: flex;
+    margin: 40px 10px;
+    padding: 0px 0px;
+    font-size: 11px;
+  }
+  .team-card {
+    padding: 10px 25px;
+    margin: 15px 0px;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 80%;
+    max-width: 420px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+  .team-cards-container {
+    margin-left: 28px;
+  }
+  .image-card {
+    width: 370px;
+    height: 370px;
+    padding: 20px 20px;
+    margin: 5px 5px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .ex {
+    font-size: medium;
+  }
+  .converse .heading {
+    font-size: 18px;
+    margin-left: -190px;
+  }
+  .explore-section {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: left;
+    margin-left: -130px;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  .explore-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+  }
+
+  .menu li {
+    margin-top: -10px;
+  }
+
+  .welcome-message {
+    margin-top: 0px;
+    font-size: 0.8rem;
+    width: auto;
+  }
+
+  .tv-section {
+    margin-right: 150px;
+    width: 40%;
+  }
+
+  .tv-image {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .header {
+    display: flex;
+    height: 100px;
+  }
+
+  .teams-section .meet {
+    margin-left: -30px;
+    margin-top: -35px;
+    font-size: 10px;
+  }
+  .teams-section .lin {
+    display: flex;
+    margin: 40px 20px;
+    padding: 0px 0px;
+    font-size: 12px;
+  }
+  .teams-section div .symb {
+    width: 40px;
+  }
+
+  .team-card {
+    padding: 10px 25px;
+    margin: 5px 25px;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 80%;
+    max-width: 270px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+  .team-cards-container {
+    margin-left: 0px;
+  }
+  .image-card {
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    margin: 5px 5px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .her {
+    font-size: 7px;
+  }
+  .her img {
+    scale: 0.7;
+  }
+  .converse .heading {
+    margin-left: -50px;
+    font-size: 24px;
+  }
+  .explore-section {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    font-size: 1.6em;
+    width: 150%;
+  }
+  .explore-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+  }
+
+  .menu li {
+    margin-top: 0px;
+    padding: 5px;
+  }
+
+  .welcome-message {
+    margin-top: -10px;
+    font-size: 1rem;
+    width: 150%;
+  }
+
+  .tv-section {
+    margin-right: 150px;
+    width: 40%;
+  }
+
+  .tv-image {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 343px) {
+  .teams-section .lin {
+    display: flex;
+    margin: 40px 20px;
+    padding: 0px 0px;
+    font-size: 10px;
+  }
+  .teams-section div .symb {
+    width: 40px;
+  }
+  .ex {
+    font-size: medium;
+  }
+  .welcome-message {
+    margin-top: 30px;
+    font-size: 1.9em;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .header {
+    display: flex;
+    height: 70px;
+  }
+  .slider {
+    width: 370px;
+    height: 230px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 16px;
+
+    /* Glassmorphism effect */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slides img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .sli {
+    padding: 25px 25px;
+    margin-left: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    width: 380px;
+    margin-top: -30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .teams-section .meet {
+    margin-left: -200px;
+    margin-top: -50px;
+  }
+  .teams-section .lin {
+    display: flex;
+    margin: 40px 72px;
+    padding: 0px 0px;
+  }
+  .team-card {
+    padding: 10px 25px;
+    margin: 25px 25px;
+    border-radius: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 80%;
+    max-width: 280px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur effect for Safari */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  }
+  .image-card {
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    margin: 5px 5px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-section h4 {
+    color: #d148d3;
+    font-size: 0.5em;
+    margin-bottom: 10px;
+  }
+
+  .footer-section p {
+    font-size: 0.5em;
+    margin: 2px 0;
+  }
+  .her {
+    font-size: 7px;
+    padding: 0px 0px;
+  }
+  .her img {
+    scale: 0.5;
+  }
+  .converse .heading {
+    margin-left: -270px;
+  }
+  .explore-section {
+    padding: 0px 0px;
+    width: 100%;
+    text-align: left;
+    margin-left: -130px;
+  }
+
+  .explore-section h3 {
+    color: #d148d3;
+    font-size: 0.4em;
+    margin-bottom: -25px;
+    width: 200%;
+  }
+  .explore-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.3rem;
+  }
+
+  .explore-section ul li a:hover {
+    color: #d148d3;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+  }
+
+  .menu li {
+    margin-top: -10px;
+  }
+
+  .welcome-message {
+    margin-top: -10px;
+    font-size: 0.3rem;
+    width: 200%;
+  }
+
+  .tv-section {
+    margin-right: 150px;
+    width: 40%;
+  }
+
+  .tv-image {
+    width: 100%;
+    max-width: 400px;
+  }
+  .welcom-message {
+    margin-top: 30px;
+    font-size: 1.9em;
+    width: auto;
+  }
+}
+
+.explor-section {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.explor-section h3 {
+  color: #d148d3;
+  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.explor-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.explor-section ul li a:hover {
+  background: linear-gradient(
+    90deg,
+    #4873ff 20%,
+    #d148d3 80%
+  ); /* More distinct color transition */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu {
+  font-size: 1.8em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu li {
+}
+
+.welcom-message {
+  font-size: 1.8em;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logog {
+  cursor: pointer;
+  margin-top: 0px;
+}
+
+.conve {
+  display: flex;
+}
+
+@keyframes lightning {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ff00ff, 0 0 40px #ff00ff,
+      0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+  }
+  50% {
+    opacity: 0.5;
+    text-shadow: #ff00ff;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #ff00ff, 0 0 40px #ff00ff,
+      0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+  }
+}
+
+.co {
+  font-family: 'Cinzel', serif;
+  font-size: 3rem;
+  margin: 0px 5px;
+  padding-top: 30px;
+  cursor: pointer;
+  animation: lightning 2s infinite;
+}
+.year {
+  font-family: 'Cinzel', serif;
+  font-size: 3rem;
+  margin-top: -20px;
+}
+.footer-section p {
+  margin-top: 7px;
+}
+.sub {
+  font-size: large;
+  font-weight: 400;
+}
+.text-sm {
+  font-size: small;
+}
+
+.hompage .team-cards-container {
+  margin-top: 50px;
+}
+.hompage .team-card {
+  height: auto;
+  width: 70%;
+}
+.hompage .team-card:hover {
+  height: auto;
+}
+.tilak {
+  text-align: center;
+  margin-top: 70px;
+}
+.tilaks {
+  font-size: 35px;
+  font-weight: 450;
+  background: linear-gradient(
+    90deg,
+    #4873ff 40%,
+    #d148d3 60%
+  ); /* More distinct color transition */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.spo {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.team-card {
+  height: 90%;
+  padding: 5px 25px;
+  /* margin:0px 10px; */
+}
+
+.teams-section h3 {
+  margin-top: 0px;
+}
+.converse .heading {
+  background: linear-gradient(
+    90deg,
+    #4873ff 40%,
+    #d148d3 60%
+  ); /* More distinct color transition */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 450;
+}
+.converse p {
+  font-weight: 450;
+}
+
+@media screen and (max-width: 669px) {
+  .spo {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .co {
+    font-size: 5rem;
+  }
+  .year {
+    font-size: 4rem;
+  }
+}
+
+.button-style {
+  /* From https://css.glass */
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  width: 246px;
+  background: rgba(134, 134, 134, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  padding: 10px 40px;
+  border-top: 1.5px solid #4873ff;
+  border-bottom: 1.5px solid #d148d3;
+  border-left: 1.5px solid #4873ff;
+  border-right: 1.5px solid #d148d3;
+}
